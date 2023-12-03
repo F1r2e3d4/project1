@@ -200,10 +200,11 @@ article div {
 
 }
 .end-part div:nth-child(3) {
-    font-size: 16px;  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    font-size: 16px;  
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    margin: 50px auto 50px;
     
 }
 
@@ -211,13 +212,28 @@ footer {
     padding:0 50px;
 }
 
-#get-started a {
+#get-started {
     background-color: #0d0c22;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
     padding: 20px;
     border-radius: 70px;
     width: fit-content;
     
 }
+
+#about-hiring {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 70px;
+    width: fit-content;
+    
+}
+
 .footer1 {
     background-color: #f7f4f8;
     height: 100%;
